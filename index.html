@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="divcontenedor">  
+            <h1>Todo List</h1>
+            <hr>
+            <h4>Nueva Tarea:</h4>
+            <input id="cajaTexto" type="text">
+            <button id="btn" onclick="validar()">Agregar</button>  
+        <div class="cardbot">
+            <div class="cardInfo">  
+                <div class="cardTotal ">
+                    <H4>Total: </H4>
+                    <H4 id="idTotal">0</H4>
+                </div>
+                <div class="cardRealizadas">
+                    <H4>Realizadas: </H4>
+                    <H4 id="idRealizadas">0</H4>
+                </div> 
+            </div>
+            <div class="tabla">
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>Tarea</th>
+                        <th>Completada</th>
+                        <th>Eliminar</th>
+                    </thead>
+                    <tbody id="idTarea">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+<script src="./assets/js/index.js">
+    
+</script>
+</body>
+</html>
